@@ -22,35 +22,36 @@ QUICやTLSのようなプロトコルを用いたWeb通信において、Split-T
 
 ## Works
 * **[QuickLibrary](https://github.com/Edfood/QuickLibrary)**  
-VSCode拡張機能。自作ライブラリのペースト・保存を効率化します。
+VSCode拡張機能。自作ライブラリのインライン展開・保存を高速に行えます。競技プログラミングでの自作ライブラリ貼り付けの手間を改善するために開発しました。
+  - 使用技術: TypeScript
 
 * **著者文章自動生成システム**  
-任意の著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。
-訓練した文章生成モデルで生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
+任意の著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。訓練した生成モデルを用いて生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
 使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.
 
 * **[Doggo](https://github.com/Edfood/Doggo)**  
 Discord Bot。
-ユーザステータスの監視により、ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
-使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku
+ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
+PCゲームをプレイする方がDiscordを常駐させることに着目し、Discord Botとして機能を実装することで、システム導入の敷居を下げました。ユーザステータスの取得により、プレイ時間の収集・蓄積を行います。
+  - 使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku
 
 * **[PointSim](https://github.com/Edfood/PointSim)**  
 視覚的な変化を楽しめるProcessingのゲーム。
 [OpenProcessingで遊べます。](https://www.openprocessing.org/sketch/972725)
 
-
 * **[ThermalMonitor](https://github.com/Edfood/ThermalMonitor)**  
 CPU温度をステータスバーに表示するためのシンプルなmacOSアプリケーション。
+CPU温度を計測する無料アプリケーションはいくつか公開されていますが、常駐処理をなるべく軽くしたかったので自作しました。
+  - 使用技術: Swift
 
 * **[CountdownToDo](https://github.com/Edfood/CountdownToDo)**  
-モチベーションを向上させるためのToDoアプリ。
-2日間ハッカソンで2人チームで開発し、実装はバックエンドを担当しました。  
-使用技術: Go, Echo, GORM, JWT
-
+カウントダウン機能を持つToDoアプリ。オンライン化による時間管理の難化やモチベーション低下を改善することを目的として開発しました。
+2日間ハッカソンで2人チームで開発し、実装はバックエンドを担当しました。
+  - 使用技術: Go, Echo, GORM, JWT, Heroku
 
 * **UE4を用いたゲーム開発**  
 部活動でチーム開発を行い、計6つのゲームを開発しました。
-ゲームエンジンはUE4を使用し、 ゲームシステム、AI (Behavior tree)、アニメーション、UI、モデリングなど、幅広い工程を担当しました。
+ゲームエンジンはUE4を使用し、 ゲームシステム、AI (Behavior tree)、アニメーション、UIなど、幅広い工程を担当しました。
 
 ## Skills
 - C/C++
