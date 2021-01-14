@@ -14,10 +14,10 @@
 
 ## Research
 * **QUICプロトコルにおけるセキュアなプロキシ機能の実現について (現在の研究テーマ)**  
-QUICやTLSのようなプロトコルを用いたWeb通信において、SplitTLSや先行研究でのプロキシ運用手法の課題解決・改善方法について検討しています。
+QUICやTLSのようなプロトコルを用いたWeb通信において、Split-TLSや先行研究でのプロキシ運用手法における課題の解決・改善方法について研究しています。
 
 * **特徴的な文体に関する機械学習とその応用 (卒業論文)**  
-特徴的な文体に関する機械学習に関して、共同研究を行いました。
+特定著者の文章に対しての機械学習を共同研究しました。
 自然言語処理モデルBERTを用いて、特定の著者文章に関する「著者推定」「著者文章自動生成」を行い、性能評価・性能改善を行いました。
 
 ## Works
@@ -26,8 +26,13 @@ VSCode拡張機能。自作ライブラリのペースト・保存を効率化�
 
 * **著者文章自動生成システム**  
 任意の著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。
-訓練した文章生成モデルを[TwitterのBot](https://twitter.com/tominobushi_gen)として公開しています。  
+訓練した文章生成モデルで生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
 使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.
+
+* **[Doggo](https://github.com/Edfood/Doggo)**  
+Discord Bot。
+ユーザステータスの監視により、ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
+使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku
 
 * **[PointSim](https://github.com/Edfood/PointSim)**  
 視覚的な変化を楽しめるProcessingのゲーム。
@@ -42,10 +47,6 @@ CPU温度をステータスバーに表示するためのシンプルなmacOSア
 2日間ハッカソンで2人チームで開発し、実装はバックエンドを担当しました。  
 使用技術: Go, Echo, GORM, JWT
 
-* **[Doggo](https://github.com/Edfood/Doggo)**  
-ユーザ個人のゲームプレイ時間の可視化・警告を出すためのDiscord Bot。
-ユーザステータスの監視により、ゲームプレイ時間の可視化・長時間プレイの警告機能を実現しています。  
-使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku
 
 * **UE4を用いたゲーム開発**  
 部活動でチーム開発を行い、計6つのゲームを開発しました。
