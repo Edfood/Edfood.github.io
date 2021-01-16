@@ -27,7 +27,7 @@ VSCode拡張機能。自作ライブラリのインライン展開・保存を�
 
 * **著者文章自動生成システム**  
 任意の著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。訓練した生成モデルを用いて生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
-使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.
+  - 使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.
 
 * **[Doggo](https://github.com/Edfood/Doggo)**  
 Discord Bot。
