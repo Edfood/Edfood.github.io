@@ -1,7 +1,7 @@
 ## About me
 こんにちは、石田良太と申します。
-東京電機大学の大学院生で修士1年の学生です。
-特にサーバーサイドの技術領域に興味を持っています。
+大学院でプロキシに関する研究をしています。
+ゲームと洋画が好きです。
 
 |key|value|
 |----|----|
@@ -34,7 +34,7 @@ VS Code拡張機能。自作ライブラリのインライン展開・保存を�
 
 * **[Doggo](https://github.com/Edfood/Doggo)**  
 Discord Bot。ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
-Discord上で動作するので、ユーザのPCに負荷をかけずに機能を使うことができます。Discordのユーザステータスの取得により、プレイ状態の判定およびプレイ時間の蓄積を行います。
+Discord上で動作するので、ユーザのPCに負荷をかけずに機能を使えます。Discordのユーザステータスの取得により、プレイ状態の判定およびプレイ時間の蓄積を行います。
 *使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku*
 
 * **[PointSim](https://github.com/Edfood/PointSim)**  
