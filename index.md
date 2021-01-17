@@ -22,36 +22,41 @@ QUICやTLSのようなプロトコルを用いたWeb通信において、Split-T
 
 ## Works
 * **[QuickLibrary](https://github.com/Edfood/QuickLibrary)**  
-VSCode拡張機能。自作ライブラリのインライン展開・保存を高速に行えます。競技プログラミングでの自作ライブラリ貼り付けの手間を改善するために開発しました。
-  - 使用技術: TypeScript
+VS Code拡張機能。自作ライブラリのインライン展開・保存を高速に行えます。  
+競技プログラミングでの自作ライブラリ貼り付けの不便を改善するために開発しました。  
+*使用技術: TypeScript*
 
 * **著者文章自動生成システム**  
-任意の著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。訓練した生成モデルを用いて生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
-  - 使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.
+著者文章を訓練データとして与えることで、著者文章を自動生成するシステム。  
+事前学習済みモデルから転移学習を行うため、100~200程度の文章量でバリエーションの豊かな文章が生成可能です。
+訓練した生成モデルを用いて生成した文章を[Twitterに公開しています](https://twitter.com/tominobushi_gen)。  
+*使用技術: Python, Pytorch, transformers(BERT), Juman++, Twitter API, AWS(Lambda, S3, CloudWatch, DynamoDB), etc.*
 
 * **[Doggo](https://github.com/Edfood/Doggo)**  
-Discord Bot。
-ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
-PCゲームをプレイする方がDiscordを常駐させることに着目し、Discord Botとして機能を実装することで、システム導入の敷居を下げました。ユーザステータスの取得により、プレイ時間の収集・蓄積を行います。
-  - 使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku
+Discord Bot。ゲームプレイ時間の可視化・長時間プレイの警告を行うことができます。  
+Discord上で動作するので、ユーザのPCに負荷をかけずに機能を使うことができます。Discordのユーザステータスの取得により、プレイ状態の判定およびプレイ時間の蓄積を行います。
+*使用技術: Python, SQLAlchemy, Discord API, Docker, Heroku*
 
 * **[PointSim](https://github.com/Edfood/PointSim)**  
-視覚的な変化を楽しめるProcessingのゲーム。
+視覚的な変化を楽しめるProcessingのゲーム。   
+表示内容をカスタマイズして遊べるように、拡張性を意識して実装しています。
 [OpenProcessingで遊べます。](https://www.openprocessing.org/sketch/972725)
 
 * **[ThermalMonitor](https://github.com/Edfood/ThermalMonitor)**  
-CPU温度をステータスバーに表示するためのシンプルなmacOSアプリケーション。
-CPU温度を計測する無料アプリケーションはいくつか公開されていますが、常駐処理をなるべく軽くしたかったので自作しました。
-  - 使用技術: Swift
+CPU温度をステータスバーに表示するためのシンプルなmacOSアプリケーション。  
+できるだけ軽い常駐処理で動作するように実装しています。  
+*使用技術: Swift*
 
 * **[CountdownToDo](https://github.com/Edfood/CountdownToDo)**  
-カウントダウン機能を持つToDoアプリ。オンライン化による時間管理の難化やモチベーション低下を改善することを目的として開発しました。
-2日間ハッカソンで2人チームで開発し、実装はバックエンドを担当しました。
-  - 使用技術: Go, Echo, GORM, JWT, Heroku
+カウントダウン機能を持つToDoアプリ。  
+オンライン化による時間管理の難化やモチベーション低下を改善することを目的として開発しました。
+2日間ハッカソンで2人チームで開発し、実装はバックエンドを担当しました。  
+*使用技術: Go, Echo, GORM, JWT, Heroku*
 
 * **UE4を用いたゲーム開発**  
-部活動でチーム開発を行い、計6つのゲームを開発しました。
-ゲームエンジンはUE4を使用し、 ゲームシステム、AI (Behavior tree)、アニメーション、UIなど、幅広い工程を担当しました。
+計6つのゲームを部活動でチーム開発しました。
+ゲームエンジンUE4を使用し、 ゲームシステム、AI (Behavior tree)、アニメーション、UIなど、幅広い工程を担当しました。  
+*使用技術: UE4, Maya*
 
 ## Skills
 - C/C++
@@ -61,6 +66,7 @@ CPU温度を計測する無料アプリケーションはいくつか公開さ�
 - Docker
 - AWS
 - Git / GitHub
+- UE4
 
 ## Competitive Programming
 * **[AtCoder](https://atcoder.jp/users/ScottShelby)**  
@@ -75,4 +81,4 @@ CPU温度を計測する無料アプリケーションはいくつか公開さ�
 
 - **タイピング**  
 秒速9~10文字。  
-高校の部活でエースとしてタイピングの大会に出ていたのでそこそこ速いはず・・・?
+高校の部活動でエースとしてタイピングの大会に出場していました。
